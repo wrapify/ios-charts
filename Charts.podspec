@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.authors = "Daniel Cohen Gindi", "Philipp Jahoda"
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "9.0"
-  s.source = { :git => "https://github.com/danielgindi/ios-charts.git", :tag => "v#{s.version}" }
+  s.source = { :git => "https://github.com/wrapify/ios-charts.git", :tag => "v#{s.version}" }
   s.source_files = "Classes", "Charts/Classes/**/*.swift"
 end
